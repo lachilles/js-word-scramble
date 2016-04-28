@@ -35,7 +35,7 @@
             // If the user guesses the correct word, congratulate them.
             // If the user guesses wrong, tell them they were wrong and the right word.
 
-            if (guess.toLowerCase()==WORDS[i]) {
+            if (guess.toLowerCase().trim()==WORDS[i]) {
                 alert("Congrats you guessed the right word!");
             } else {
                 alert("Wrong! The correct answer is:" + WORDS[i]);
